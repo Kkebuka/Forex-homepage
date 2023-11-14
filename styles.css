@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   
   
@@ -43,7 +44,8 @@
 
   .reg-container{
     display: flex;
-    height: 600px;
+    height: auto;
+    padding-bottom: 20px;
     width: 100%;
     background-image: url("/images/Untitled\ design\ \(2\).png");
     background-size: cover;
@@ -101,7 +103,7 @@
     background-color: #064d00;
     color: antiquewhite;
     height: 500px;
-    padding-top: 60px;
+    padding: 60px 10px 0px 20px;
 }
 h2{
     font-size: 3rem;
@@ -150,7 +152,7 @@ h3 {
     width: 100%;
     text-align: center;
     height: auto;
-    background-color: #7ce473;
+    background-color: #F3FDE8;
     padding-bottom: 20px;
 
 }
@@ -173,7 +175,6 @@ h2 {
     margin-top: 0px;
     padding-top: 20px;
     padding-bottom: 00px;
-    color:antiquewhite;
 }
 
 .account-container {
@@ -273,11 +274,19 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     gap: 30px;
-    padding: 20px 0px 3% 50px ;
+    padding: 20px 0px 30px 50px ;
     background-color: #FBD85D;
+}
+h5 {
+    font-size: large;
+    margin-bottom: 10px;
 }
 .about-us > div {
     font-size: 1.1rem;
+}
+.about-us p {
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 footer {
     background-color: #FAE392;
