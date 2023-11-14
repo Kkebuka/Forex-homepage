@@ -36,6 +36,7 @@
   }
   .page-links > a {
     color: aliceblue;
+    text-decoration: none;
   }
   .login {
     border: 2px solid blue;
@@ -120,9 +121,17 @@ h2{
 }
 .note {
     font-size: 1.4em;
+   
+}
+.li:hover {
+    text-decoration: underline;
 }
 .li {
     color:#FFD700;
+    text-decoration: none;
+}
+.learn-more {
+    color: blue;
 }
 .fa-brands, .fa-solid {
     font-size: 5rem;
@@ -156,6 +165,9 @@ h3 {
 .vps-link{
     color: green;
     font-size: 1.3rem;
+}
+.vps-link:hover{
+    font-size: 1.5rem;
 }
 
 .stock-div {
@@ -222,6 +234,10 @@ h2 {
     text-decoration: none;
     color: #443b06;
 }
+.one-link:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3rem;
+}
 .two-link {
     display:inline-block;
     height: 50px;
@@ -233,6 +249,10 @@ h2 {
     border: 2px solid black;
     text-decoration: none;
     color: black;
+}
+.two-link:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-size: 1.3rem;
 }
 .stats {
     display: flex;
@@ -284,7 +304,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     gap: 30px;
-    padding: 20px 0px 30px 50px ;
+    padding: 20px 0px 50px 50px ;
     background-color: #FBD85D;
 }
 h5 {
