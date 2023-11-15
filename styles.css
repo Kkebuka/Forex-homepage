@@ -1,6 +1,6 @@
 /* gold color code #FFD700**/
 
-* {
+html {
     box-sizing: border-box;
     overflow-x: hidden;
   }
@@ -41,6 +41,9 @@
   .login {
     border: 2px solid blue;
     margin-left: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
   }
 
   .reg-container{
@@ -65,15 +68,19 @@
     font-size: 1.4rem;
   }
   .reg-home {
-    margin-top: 50px;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+  } 
 
   .register{
     background-color: #FFD700;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     text-align: center;
-    padding-top: 11px;
     width: 150px;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -87,11 +94,11 @@
     border: 2px solid #0f8f04;
   }
   .demo {
-    display: inline-block;
     height: 50px;
     text-align: center;
-    padding-top: 11px;
-    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     border: 2px solid #FFD700;
     border-radius: 10px;
@@ -202,8 +209,9 @@ h2 {
 .account-container {
     width: 100%;
     display: grid;
+    height: auto;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: auto;
 }
 
 .account-container  h4 {
@@ -217,16 +225,17 @@ h2 {
     background-color: #FAE392;
     padding-left: 100px;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 .account-two {
     background-color: #F1C93B;
 }
 
 .one-link {
-    display:inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    text-align: center;
-    padding-top: 11px;
     width: 150px;
     border-radius: 10px;
     font-size: 1.2rem;
@@ -239,10 +248,10 @@ h2 {
     font-size: 1.3rem;
 }
 .two-link {
-    display:inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;    
     height: 50px;
-    text-align: center;
-    padding-top: 11px;
     width: 150px;
     border-radius: 10px;
     font-size: 1.2rem;
@@ -337,3 +346,19 @@ footer {
     margin-left: auto;
 }
 
+
+@media (max-width: 1150px){
+    h1{
+        font-size: 3.8rem;
+    }
+    .register{
+        height: 40px;
+        width: 120px;
+        border-radius: 4px;
+      }
+      .demo {
+        height: 40px;
+        width: 120px;
+        border-radius: 4px;
+      }
+}
