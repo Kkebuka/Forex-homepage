@@ -361,11 +361,23 @@ footer {
     .reg{
         width: 48%;
     }
-
+    .stats {
+        display: flex;
+        width: 100vw;
+        gap: 30px;
+        text-align: center;
+        background-color: #0f8f04;
+        color: antiquewhite;
+        padding: 30px 0px 0px 100px;
+    }
+    .social-con {
+        width: 300px;
+        margin-right: 200px;
+    }
 }
 
 
-@media (min-width: 768px) and (max-width: 1000px){
+@media (min-width: 830px) and (max-width: 1000px){
     h1{
         font-size: 3.2rem;
     }
@@ -376,7 +388,7 @@ footer {
         margin-left: 5px;
     }
     .page-links {
-        font-size: 1rem;
+        font-size: 1.25rem;
         gap: 25px;
     }
     .register{
@@ -391,5 +403,49 @@ footer {
         border-radius: 4px;
         font-size: 1rem;
       }
-
+      .stock-container {
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 300px;
+    }
+    .account-container  h4 {
+        font-size: 2.4rem;
+    }
+    
+    .account-container p {
+        font-size: 1.1rem;
+    }
+    .one-link, .two-link {
+        height: 40px;
+        width: 120px;
+    }
+    .stats {
+        display: flex;
+        width: 100vw;
+        gap: 30px;
+        text-align: center;
+        background-color: #0f8f04;
+        color: antiquewhite;
+        padding: 30px 0px 0px 100px;
+    }
+    .stats-figure {
+        width: 500px;
+    }
+    .social-con {
+        width: 500px;
+        margin-right: 200px;
+    }
+    .about-us {
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        gap: 20px;
+        padding: 0px 0px 65px 20px ;
+        background-color: #FBD85D;
+    }
+    .left {
+        font-size: 1rem;
+        padding-left: 20px;
+    }
 }
