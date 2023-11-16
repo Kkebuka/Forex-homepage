@@ -276,16 +276,19 @@ h2 {
     margin-bottom: 0px;
     margin-top: 10px;
 }
+.stats-figure{
+    border: 2px solid blue;
+}
 .stats-figure > p {
     font-size: 1.1rem;
     margin-bottom: 50px;
-    
-    
-    
+  
 }
 .social-con{
     margin-left: auto;
-    margin-right: 200px;
+    margin-right: 400px;
+    border: 2px solid red;
+    padding-left: 50px;
 
 }
 .social-container img {
@@ -295,17 +298,6 @@ h2 {
 .join {
     font-size: 1.5rem;
 }
-/* .account-one, .account-two { */
-    /* width:30%; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* border: 2px solid blue; */
-/* } */
-
-/* .stats { */
-    /* display: flex; */
-    /* width: 100%; */
-/* } */
 .about-us {
     height: auto;
     width: 100%;
@@ -344,10 +336,11 @@ footer {
 .right {
     display: inline-block;
     margin-left: auto;
+    margin-right: 70px;
 }
 
 
-@media (max-width: 1150px){
+@media (min-width: 980px) and (max-width: 1150px){
     h1{
         font-size: 3.8rem;
     }
@@ -366,5 +359,13 @@ footer {
     }
     .reg{
         width: 48%;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 980px){
+    h1{
+        font-size: xx-small;
     }
 }
