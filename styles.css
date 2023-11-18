@@ -339,6 +339,11 @@ footer {
     margin-left: auto;
     margin-right: 70px;
 }
+.fa-solid {
+    color: yellow;
+    width: 30px;
+    display: none;
+}
 
 
 @media (min-width: 100px) and (max-width: 1150px){
