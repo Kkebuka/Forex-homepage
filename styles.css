@@ -13,6 +13,7 @@ html {
 
   .header{
     display: flex;
+    height: 65px;
     width: 100%;
     border: 2px solid gold;
     align-items: center;
@@ -61,6 +62,9 @@ html {
     border: 2px solid green;
     color:aliceblue;
     padding: 60px 0px 0px 80px;
+  }
+  .hamburger{
+    display: none;
   }
 
   h1{
@@ -459,5 +463,19 @@ footer {
 @media (max-width: 830px)  {
     h1{
         font-size: xx-small;
+    }
+    .page-links{
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .hamburger{ 
+        display: block;
+        margin-left: auto;
+        padding-right: 50px;
+    }
+    .fa-bars {
+        color: #FFD700;
     }
 }
