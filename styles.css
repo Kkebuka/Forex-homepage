@@ -63,6 +63,9 @@ html {
     color:aliceblue;
     padding: 60px 0px 0px 80px;
   }
+  .image-div {
+    display: none;
+  }
   .hamburger{
     display: none;
   }
@@ -462,7 +465,7 @@ footer {
 
 @media (max-width: 830px)  {
     h1{
-        font-size: xx-small;
+        font-size: 2.4rem;
     }
     .mylinks {
         display: none;
@@ -477,6 +480,7 @@ footer {
         display: block;
         margin-left: auto;
         padding-right: 50px;
+
     }
     .fa-bars {
         color: #FFD700;
@@ -517,5 +521,22 @@ footer {
       }
       .site-link:hover{
         background-color: #F1C93B;
+        
+      }
+      .reg-container {
+        background-size: auto;
+        height: auto;
+      }
+      .reg {
+        width: 100vw;
+        padding-left: 30px;
+        padding-right: 30px;
+
+      }
+      .trade-text{
+        font-size: 1.5rem;
+      }
+      .withdraw {
+        font-size: 0.4rem;;
       }
 }
