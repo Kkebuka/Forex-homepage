@@ -125,12 +125,15 @@ html {
   /* } */
 
 .withdraw{
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background-color: #064d00;
     color: antiquewhite;
-    height: 500px;
-    padding: 60px 10px 0px 20px;
+    height: auto;
+    padding: 20px 0px;
+}
+.about-withdraw {
+    padding: 0 20px;
 }
 h2{
     font-size: 3rem;
@@ -151,7 +154,6 @@ h2{
 }
 .fa-brands, .fa-solid {
     font-size: 5rem;
-    padding-left: 40px;
 }
 
 .vps-container {
@@ -536,7 +538,21 @@ footer {
       .trade-text{
         font-size: 1.5rem;
       }
-      .withdraw {
-        font-size: 0.4rem;;
-      }
-}
+
+
+      h2{
+     font-size: 2.5rem;
+     }
+     .note {
+         font-size: 1em;
+     
+     }
+     .fa-brands, .fa-solid {
+         font-size: 3.8rem;
+         padding-left: 40px;
+     }
+     .stock-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}  
