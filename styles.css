@@ -14,7 +14,7 @@ html {
   .header{
     display: flex;
     height: 65px;
-    width: 100%;
+    width: 100vw;
     border: 2px solid gold;
     align-items: center;
     background-color: black;
@@ -585,25 +585,35 @@ footer {
         padding-bottom: 20px;
     }
     .stats-figure {
-        width: 96%;
+        width: 100%;
         margin: 0px auto;
         padding: 0px;
     }
     .social-con {
-        width: 96%;
-        margin: 0px 2%;
+        width: 100%;
+        margin: 0px;
         padding: 0px;
     }
     .about-us {
-        width: 96%;
-        margin: 0px 2%;
+        width: 100%;
+        margin: 0px;
         border: 2px solid black;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 200px;
+        grid-template-rows: auto;
         gap: 10px;
         text-align: center;
         background-color: #FBD85D;
-        padding: 0px;
+        padding: 0px 0px 20px 0px;
+    }
+    .about-us p {
+        margin-top: 10px;
+    }
+    .about-us > div {
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .left {
+        font-size: 1rem;
     }
 }  
