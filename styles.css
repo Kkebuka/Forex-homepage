@@ -325,6 +325,7 @@ h5 {
 }
 .about-us > div {
     font-size: 1.1rem;
+    border: 2px soid green;
 }
 .about-us p {
     margin-bottom: 0px;
@@ -554,5 +555,55 @@ footer {
      .stock-container {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    .account-container {
+        width: 100%;
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .acct {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .one-link, .two-link {
+        margin: 0px auto;
+    }
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .stats {
+        display: flex;
+        width: 100vw;
+        text-align: center;
+        flex-direction: column;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .stats-figure {
+        width: 96%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    .social-con {
+        width: 96%;
+        margin: 0px 2%;
+        padding: 0px;
+    }
+    .about-us {
+        width: 96%;
+        margin: 0px 2%;
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+        gap: 10px;
+        text-align: center;
+        background-color: #FBD85D;
+        padding: 0px;
     }
 }  
