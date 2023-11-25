@@ -1,14 +1,16 @@
 /* gold color code #FFD700**/
 
 html {
+    width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
   }
   
   
   body{
-      margin: 0;
+      margin: 0px;
       /* overflow-x: hidden; */
+      padding: 0px;
   }
 
   .header{
@@ -18,7 +20,7 @@ html {
     border: 2px solid gold;
     align-items: center;
     background-color: black;
-    padding-right: 20px;;
+    padding-right: 20px;
     position: fixed;
   }
 .logo {
@@ -479,6 +481,9 @@ footer {
         margin-top: 65px;
 
     }
+    .header {
+        padding-right: 0px;
+    }
     .hamburger{ 
         display: block;
         margin-left: auto;
@@ -490,7 +495,7 @@ footer {
     }
     .page-links {
         border: 2px solid red;
-        width: 500px;
+        width: 70vw;
         margin-left: 0px;
         margin-right: 0px;
         padding-top: 0px;
@@ -508,19 +513,24 @@ footer {
         display: inline-block;
         padding-top: 30px;
         z-index: 9;
-        background-color: red;
+        background-color: rgb(17, 43, 21);
         margin: 0px;
         padding-left: 20px;
         height: 40px;
       }
       .login {
         border: 2px solid blue;
-        margin-left: 0px;;
+        width: 100%;
+        margin: 0px;
         display: flex;
         gap: 20px;
-        align-items: center;
         justify-content: center;
-        padding-right: 20px;
+        background-color: rgb(17, 43, 21);
+        padding: 0px;
+      }
+      .login > a {
+        padding: 0px;
+        margin: 0px;
       }
       .site-link:hover{
         background-color: #F1C93B;
@@ -555,6 +565,7 @@ footer {
      .stock-container {
         grid-template-columns: 1fr;
         gap: 20px;
+        padding: 0px 20px;
     }
     .account-container {
         width: 100%;
@@ -613,7 +624,17 @@ footer {
         margin-top: 0px;
         padding-bottom: 0px;
     }
-    .left {
-        font-size: 1rem;
+    footer{
+        width: 100vw;
     }
-}  
+    .left {
+        font-size: 0.8rem;
+    }  
+    .left {
+        padding-left: 10px;
+
+    }
+    .right{
+        margin-right: 0px;;
+    }
+}
