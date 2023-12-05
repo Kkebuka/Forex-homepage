@@ -216,7 +216,6 @@ h3 {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 300px;
     gap: 30px;
-    border:2px solid orange;
     justify-content: center;
 }
 h2 {
